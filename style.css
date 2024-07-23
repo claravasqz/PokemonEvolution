@@ -1,0 +1,275 @@
+body{
+    background-color: #ffdd00db;
+}
+
+.Resumen{
+    /* border: solid red; */
+    /* border-style: dashed; */
+    /* height: 500px; */
+    display: flex;
+
+}
+.ProfileSide{
+    /* border: solid purple; */
+    /* border-style: dashed; */
+    height: 100vh;
+    width: 38%;
+    margin: 5px;
+    
+}
+.mediumR{
+    /* border: solid pink; */
+    /* border-style: dashed; */
+    height: 100vh;
+    width: 32%;
+    margin: 1px;
+
+}
+.RigthS{
+    /* border: solid black; */
+    /* border-style: dashed; */
+    height: 100vh;
+    width: 32%;
+    margin: 1px;
+
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid #FFDB00;
+    margin-top: 10px;
+
+}
+.Picture{
+    /* border: solid black; */
+    height: 40%;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FF8F00;
+    border-radius: 15px;
+    box-shadow: 3px 3px #AF47D2;
+
+}
+.Picture:hover{
+    background-color: #fcad46;
+    
+}
+
+.Name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #26355D;
+
+}
+
+.profesion{
+    font-size: small;
+    font-weight: bold;
+    margin-top: -15px;
+    color: #AF47D2;
+
+}
+.quote{
+    /* border: solid black; */
+    height: 20%;
+    margin: 7px;
+    display: flex;
+    background-color: #FF8F00;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px #AF47D2;
+
+
+}
+.q{
+    margin-bottom: -40px;
+    margin-top: -10px;
+    font-size: xx-large;
+    color: #AF47D2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.quote:hover{
+    background-color: #fcad46;
+    height: 30%;
+    width: 200px;
+    
+}
+.phrase:hover{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.phrase{
+    margin: 10px;
+    font-size: small;
+    color: #26355D;
+   
+}
+.description{
+    /* border: solid black; */
+    background-color: #FF8F00;
+    border-radius: 15px;
+    height: 37%;
+    margin: 7px;
+    box-shadow: 3px 3px #AF47D2;
+
+}
+
+.description:hover{
+    background-color: #fcad46;
+}
+
+
+.ProfileDescription{
+    display: flex;
+    flex-direction: column;
+    color: #26355D;
+    padding: 15px;
+    margin: 1px;
+    background-color: ;
+
+
+}
+
+.PD{
+    font-size: small;
+    margin-top: auto;
+}
+
+.Bio{
+    /* border: solid green; */
+    /* height: 33%; */
+    background-color: #FF8F00;
+    border-radius: 15px;
+    box-shadow: 3px 3px #AF47D2 ;
+    margin: 7px;
+    padding: 7px;
+    text-align: center;
+    color: #26355D;
+
+}
+
+.BioL{
+    font-size: small;
+    margin-top: -10px;
+    text-align: center;
+}
+.Education{
+    /* border: solid green; */
+    background-color: #FF8F00;
+    border-radius: 15px;
+    box-shadow: 3px 3px #AF47D2;
+    height: 33%;
+    margin: 7px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Hardworking{
+    background-color: #AF47D2;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #FFDB00;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+    margin-bottom: 10px;
+
+}
+
+.Collab{
+    background-color: #AF47D2;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #FFDB00;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.Passionate{
+    background-color: #AF47D2;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #FFDB00;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+    margin: 7px;
+    margin-bottom: 15px;
+
+}
+
+.creativity{
+    background-color: #AF47D2;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #FFDB00;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+    margin: 7px;
+
+}
+
+
+
+ 
+
+.Goals{
+    border: solid green;
+    height: 31%;
+    margin: 1px;
+}
+
+.motivations{
+    /* border: solid blue; */
+    background-color: #FF8F00;
+    border-radius: 15px;
+    box-shadow: 3px 3px #AF47D2;
+    height: 33%;
+    margin: 7px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #26355D;
+
+}
+
+.html{
+    background-color: #26355D;
+    border: #26355D;
+    margin-top: -15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    color: #FFDB00;
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    font-size: small;
+
+}
+.frustation{
+    border: solid blue;
+    height: 33%;
+    margin: 1px;
+}
+.favoritebrand{
+    border: solid blue;
+    height: 31%;
+    margin: 1px;
+}
